@@ -10,6 +10,11 @@ import base.TestBase;
 public class AlertHelper extends TestBase {
 
 	// private WebDriver driver;
+	
+	
+	public AlertHelper() {
+		System.out.println("Default constructor called");
+	}
 
 	public Alert getAlert() {
 		test.log(Status.INFO, "Getting the Alert");
@@ -17,6 +22,7 @@ public class AlertHelper extends TestBase {
 		return driver.switchTo().alert();
 	}
 
+	
 	public void acceptAlert() {
 
 		test.log(Status.INFO, "Accepting the Alert");
