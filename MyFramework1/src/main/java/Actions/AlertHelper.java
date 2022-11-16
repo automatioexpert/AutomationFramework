@@ -10,7 +10,6 @@ import base.TestBase;
 public class AlertHelper extends TestBase {
 
 	// private WebDriver driver;
-	
 
 	public Alert getAlert() {
 		test.log(Status.INFO, "Getting the Alert");
